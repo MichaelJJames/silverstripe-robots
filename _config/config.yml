@@ -4,10 +4,10 @@ Name: silverstripe-robots
 
 suppress: warning
 
-SiteConfig:
+SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - RobotsSiteConfigExtension
 
-Director:
+SilverStripe\Control\Director:
   rules:
     'robots.txt': 'RobotsController'

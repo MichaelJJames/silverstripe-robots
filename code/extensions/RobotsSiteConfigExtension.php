@@ -1,5 +1,10 @@
 <?php
 
+use SilverStripe\ORM\DataExtension;
+use SilverStripe\Forms\FieldList;
+use SilverStripe\Forms\CheckboxField;
+use SilverStripe\Forms\TextareaField;
+
 class RobotsSiteConfigExtension extends DataExtension 
 {
 
