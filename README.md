@@ -5,7 +5,7 @@ This module will allow you to have a dynamic robots.txt
 # Installation
 
 ```
-$ composer require michaeljjames/silverstripe-robots
+$ composer require michaeljjames/silverstripe-robots:dev-ss4
 ```
 You can also install manually by downloading the zip and extracting it into your site root.
 
