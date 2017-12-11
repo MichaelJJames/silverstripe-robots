@@ -1,0 +1,13 @@
+---
+Name: silverstripe-robots
+---
+
+suppress: warning
+
+SiteConfig:
+  extensions:
+    - RobotsSiteConfigExtension
+
+Director:
+  rules:
+    'robots.txt': 'RobotsController'
